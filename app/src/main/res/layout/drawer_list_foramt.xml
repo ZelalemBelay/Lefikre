@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linea"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/list_selector"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="6dp"
+        android:layout_height="66dp"
+        android:gravity="right"
+        android:orientation="vertical"
+        android:background="#111111">
+
+    </LinearLayout>
+
+    <Customizers.MyTextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="7dp"
+        android:text="title"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/ic_header_logo"
+        android:layout_marginBottom="6dp"
+        android:layout_marginRight="19dp"
+        android:layout_marginLeft="6dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.8" />
+
+</LinearLayout>
